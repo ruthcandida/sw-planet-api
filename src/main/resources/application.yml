@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sw-planet-api
+  datasource:
+    url: jdbc:mysql://localhost/starwars?useSSL=false
+    username: root
+    password: 123456789
+  jpa:
+    hibernate:
+      ddl-auto: update
